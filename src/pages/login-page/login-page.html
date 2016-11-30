@@ -1,0 +1,43 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Login</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <div class="content__header">
+    <h1>Login</h1>
+  </div>
+  <form [formGroup]="loginForm" (submit)="loginUser()" novalidate>
+  <ion-item>
+    <ion-label color="primary" stacked>Email</ion-label>
+    <ion-input formControlName="email" type="email" placeholder="example@example.com">
+    </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label color="primary" stacked>Password</ion-label>
+    <ion-input formControlName="password" type="password" placeholder="p@sswOrd">
+    </ion-input>
+  </ion-item>
+  <ion-item no-lines>
+    <ion-label>Remember me next time</ion-label>
+    <ion-checkbox color="dark" checked="false"></ion-checkbox>
+  </ion-item>
+  <ion-item>
+    <a href="">Forgot your password?</a>
+  </ion-item>
+  <ion-row responsive-sm>
+    <ion-col>
+      <button ion-button type="submit" color="secondary" block>Log In</button>
+    </ion-col>
+    <ion-col>
+      <button ion-button block>Login with Facebook</button>
+    </ion-col>
+  </ion-row>
+</form>
+
+</ion-content>

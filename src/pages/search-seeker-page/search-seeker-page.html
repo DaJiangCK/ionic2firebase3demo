@@ -1,0 +1,60 @@
+<!--
+  Generated template for the SearchSeekerPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Search for Care Seekers</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <div class="content__header">
+    <h1>Search for Care Seekers</h1>
+  </div>
+  <ion-item>
+    <ion-label stacked>Start Date</ion-label>
+    <ion-input placeholder="DD/MM/YYYY"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label stacked>End Date</ion-label>
+    <ion-input placeholder="DD/MM/YYYY"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label color="primary" stacked>Min Wage</ion-label>
+    <ion-input placeholder="0.00">
+    </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label color="primary" stacked>Max Wage</ion-label>
+    <ion-input placeholder="15.00">
+    </ion-input>
+  </ion-item>
+  <!--<ion-item>
+    <ion-label stacked>Service Type</ion-label>
+    <ion-select [(ngModel)]="gender">
+      <ion-option value="t1" selected="true">Type1</ion-option>
+      <ion-option value="t2">Type2</ion-option>
+    </ion-select>
+  </ion-item>-->
+  <ion-item>
+    <ion-label color="primary" stacked>Service Type</ion-label>
+    <ion-input placeholder="Enter Service Type">
+    </ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label color="primary" stacked>Work Order Title</ion-label>
+    <ion-input placeholder="Need a babysitter">
+    </ion-input>
+  </ion-item>
+  <button ion-button block>Advanced Search</button>
+  <button ion-button block>Search</button>
+</ion-content>

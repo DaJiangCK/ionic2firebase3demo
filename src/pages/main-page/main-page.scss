@@ -1,0 +1,58 @@
+page-main-page {
+
+.banner--home {
+    background: no-repeat center center;
+    background-size: cover;
+
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    height: 60%;
+    width: 100%;
+}
+
+.banner__inner {
+    background-color:rgba(0,0,0,0.6);
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+    height: 100%;
+    width: 100%;
+}
+
+.home-search {
+    background-color: #ec6d5f;
+    color: #fff;
+    padding: 40px 0;
+    text-align: center;
+    height: 40%;
+    width: 100%;
+}
+
+.banner h1 {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0;
+}
+
+.banner__title {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 600;
+    line-height: 1.5;
+    text-transform: uppercase;
+}
+
+.banner__btn {
+    border: 2px solid #fff;
+    border-radius: 5px;
+    color: #fff;
+    display: inline-block;
+    font-size: 2rem;
+    margin-top: 50px;
+    padding: 15px 20px;
+    text-decoration: none;
+}
+}
